@@ -109,21 +109,14 @@ class Instructor extends ProjectManagers{
 
 
 
-const james = new ProjectManagers({
+const james = new Student({
     name: 'james',
     location: 'New York',
     age: 20,
     previousBackground: 'none',
     className: 'cool class name',
-    favSubjects: 'coding, eating, sleaping',
-    favLanguage: 'JavaScript',
-    specialty: 'Front-end',
-    catchPhrase: `Don't forget the homies`,
-    
+    favSubjects: 'coding, eating, sleaping', 
 });
-
-
-
 
 
 
@@ -135,6 +128,8 @@ const fred = new Instructor({
     previousBackground: 'not much',
     className: 'cool class name',
     favSubjects: 'coding, eating, sleaping',
+    gradClassName: 'cool grad calls',
+    favInstructor: 'josh',
     favLanguage: 'JavaScript',
     specialty: 'Front-end',
     catchPhrase: `Don't forget the homies`,
